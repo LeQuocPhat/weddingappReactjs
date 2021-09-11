@@ -115,7 +115,8 @@ class A_menu extends React.Component {
                         </div>
                         <p>Trung tâm tiệc cưới Melisa phục vụ hơn 150 món ăn phong cách Âu – Á</p>
                     </div>
-                    <div className="food-list" onClick = { this.zoomImg }>
+                    <div className
+                    ="food-list" onClick = { this.zoomImg }>
                         <div className="food-list-itme">
                         
                             {this.state.menu.map( c => 
