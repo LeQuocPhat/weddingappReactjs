@@ -10,13 +10,13 @@ class A_URL extends React.Component {
     render() {
         return (
             <div>
-                    <Switch>
-                        <Route exact path="/service" component={A_service} />
-                        <Route exact path="/weddinghalls" component={A_spaces} />
-                        <Route exact path="/menu" component={A_menu} />
-                        <Route exact path="/register" component={A_Register} />
-                        <Route exact path="/login" component={A_login} />
-                    </Switch>
+                <Switch>
+                    <Route exact path="/service" component={A_service} />
+                    <Route exact path="/weddinghalls" component={A_spaces} />
+                    <Route exact path="/menu" component={A_menu} />
+                    <Route exact path="/register" component={A_Register} />
+                    <Route exact path="/login" component={A_login} />
+                </Switch>
             </div>
         );
     }

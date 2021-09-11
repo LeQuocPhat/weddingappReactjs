@@ -55,10 +55,10 @@ export default function A_header() {
                                     <li><i class="fas fa-search fa"></i> </li>
                                     <li class="menu-bar-items-sub">
                                         <a href="#">Hệ thống</a>
-                                        <ul class="menu-bar-items-sub1">
+                                        {/* <ul class="menu-bar-items-sub1">
                                             <li><a href="#">Thực đơn</a></li>
                                             <li><a href="#">Thực đơn</a></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li ><Link to="/menu">Thực đơn</Link></li>
                                     <li class="menu-bar-items-sub">
@@ -79,13 +79,6 @@ export default function A_header() {
                             <nav>
                                 <ul class="menu-bar-right-food row">
                                     <li><a href="#">Liên hệ</a></li>
-                                    <li class="menu-bar-items-sub">
-                                        <a href="#">Blog</a>
-                                        <ul class="menu-bar-items-sub1">
-                                            <li><a href="#">Thực đơn</a></li>
-                                            <li><a href="#">Thực đơn</a></li>
-                                        </ul>
-                                    </li>
                                     {r} 
                                     <li><button class="btOrder">Đặt tiệc</button></li>
                                 </ul>

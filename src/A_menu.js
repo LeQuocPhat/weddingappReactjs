@@ -109,7 +109,7 @@ class A_menu extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="food-title">
+                    {/* <div className="food-title">
                         <div className="food-title-txt center">
                             <h2>Thực đơn tiệc cưới mới nhất 2021</h2>
                         </div>
@@ -128,7 +128,7 @@ class A_menu extends React.Component {
                                 <img style={{ width: '100%' }} src="images/food/menu1.jpg" />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </section>
 
